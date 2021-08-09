@@ -1,34 +1,11 @@
-# test
+# Project title
 
   ## Description
-  test
+  Short description
 
-  ![License](https://img.shields.io/badge/License-MIT-green.svg)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
-    [License](<function renderLicenseLink(license) {
-  let link = "";
-  switch (license) {
-    case "Apache License 2.0":
-      link = `https://choosealicense.com/licenses/apache-2.0/`;
-      break;
-    case "GNU GPLv3":
-      link = `https://choosealicense.com/licenses/gpl-3.0/`;
-      break;
-    case "GNU GPLv2":
-      link = `https://choosealicense.com/licenses/gpl-2.0/`;
-      break;
-    case "ISC License":
-      link = `https://choosealicense.com/licenses/isc/`;
-      break;
-    case "MIT":
-      link = `https://choosealicense.com/licenses/mit/`;
-      break;
-    default:
-      link = "";
-
-  }
-  return link;
-}>)
+    [License](https://choosealicense.com/licenses/apache-2.0/)
 
   ## Table of Contents
 - [Installation](#installation)
@@ -37,29 +14,29 @@
 - [License](#license)
 
 ## Installation
-test
+Steps for istall
 
 ## Usage
 
-![Screenshot of App](test)
+![Screenshot of App](url)
 
-[Demo Video](test)
+[Demo Video](video url)
 
 ## Credits
-test
+not applicable
 
 ## License
-
+This project is covered by the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
 
 ## How to Contribute
 *If you would like to contribute, you can follow these guidelines for how to do so.*
-test
+contributor covenent
 
 ## Tests
-test
+no testing
 
 ## Questions
 Please feel free to reach out and send any questions or comments to me at:
-https://github.com/test
+GitHub: https://github.com/
 
-teset
+email: aubri.henley@gmail.com

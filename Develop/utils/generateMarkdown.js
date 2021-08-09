@@ -59,7 +59,7 @@ function renderLicenseSection(license) {
     return licenseSection;
   }else {
     let licenseSection= `![License](${renderLicenseBadge(license)})\n
-    [License](<${renderLicenseLink}>)`
+    [License](${renderLicenseLink(license)})`
     return licenseSection;
   }
  
@@ -93,20 +93,20 @@ ${data.installation}
 ${data.collaborators}
 
 ## License
-${renderLicenseLink(data.license)}
+This project is covered by the [${data.license}](${renderLicenseLink(data.license)}) license.
 
 ## How to Contribute
-*If you would like to contribute, you can follow these guidelines for how to do so.*
+*If you would like to contribute, you can follow these guidelines for how to do so.*\n
 ${data.contributing}
 
 ## Tests
 ${data.tests}
 
 ## Questions
-Please feel free to reach out and send any questions or comments to me at:
-https://github.com/${data.userName}
+Please feel free to reach out and send any questions or comments to me at:\n
+GitHub: https://github.com/${data.userName}
 
-${data.email}
+email: ${data.email}
 `;
 }
 
