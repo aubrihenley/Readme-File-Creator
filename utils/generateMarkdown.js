@@ -18,3 +18,6 @@ function generateMarkdown(data) {
 }
 
 module.exports = generateMarkdown;
+
+//data from inquirer passed to this file
+//![NPM](https://img.shields.io/npm/l/inquirer)
