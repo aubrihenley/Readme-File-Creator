@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const Choices = require('inquirer/lib/objects/choices');
-
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -31,6 +31,11 @@ const questions = [
       type: 'input',
       message: 'Provide a relative url for your screenshot.',
       name: 'screenshot',
+    },
+    {
+      type: 'input',
+      message: 'Provide a url for your video if available',
+      name: 'video',
     },
     {
       type: 'input',
@@ -72,8 +77,12 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-//this function determines the file type readme.md
+function writeToFile(fileName, data) {
+  //this function determines the file type readme.md
+  fs.writeFile(fileName, generateMarkdown(data), (err) =>
+  err ? console.error(err) : console.log('ReadMe successfully created')
+  );
+}
 
 
 // TODO: Create a function to initialize app
@@ -81,6 +90,7 @@ function init() {
   inquirer
    .prompt(questions).then((data) => {
        console.log(data);
+       writeToFile("README.md", data);
   });
 }
 // Function call to initialize app

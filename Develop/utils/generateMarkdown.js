@@ -14,6 +14,43 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  ${data.description}
+
+  ${renderLicenseBadge(data)}
+  ${renderLicenseLink(data)}
+
+  ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
+## Installation
+${data.installation}
+
+## Usage
+
+![Screenshot of App](${data.screenshot})
+
+[Demo Video](${data.video})
+
+## Credits
+${data.collaborators}
+
+## License
+${renderLicenseSection(data)}
+
+## How to Contribute
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+
+${data.userName}
+${data.email}
 `;
 }
 
