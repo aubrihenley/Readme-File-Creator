@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const Choices = require('inquirer/lib/objects/choices');
+// const Choices = require('inquirer/lib/objects/choices');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
@@ -39,7 +39,7 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'List your collaborators, if any, with links to their GitHub profiles.',
+      message: 'List your collaborators, if any, with links to their GitHub profiles, seperated by commas.',
       name: 'collaborators',
     },
     {
@@ -51,9 +51,7 @@ const questions = [
                 'GNU GPLv2',
                 'ISC License',
                 'MIT',
-                'No License - All Rights Reserved',
-      ]
-    },
+    ]},
     {
       type: 'input',
       message: 'How would you like others to contribute to your project?',
