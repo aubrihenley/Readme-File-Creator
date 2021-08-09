@@ -24,8 +24,13 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'Provide instructions and examples for use. Include screenshots as needed.',
+      message: 'Provide instructions and examples for use.',
       name: 'usage',
+    },
+    {
+      type: 'input',
+      message: 'Provide a relative url for your screenshot.',
+      name: 'screenshot',
     },
     {
       type: 'input',
@@ -69,6 +74,8 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 //this function determines the file type readme.md
+
+
 // TODO: Create a function to initialize app
 function init() {
   inquirer
