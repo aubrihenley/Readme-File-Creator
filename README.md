@@ -16,7 +16,7 @@ Before initializign the index.js you will need to do and npm install for inquire
 
 ## Usage
 User will initialize index.js and fill out prompts as directed. See screenshot and video demonstration below.
-
+[Link to Repository](https://github.com/aubrihenley/Readme-File-Creator)
 ![Screenshot of inquirer prompts](assets/images/screenshot.png)
 [Demo Video](https://drive.google.com/file/d/1u-JnuiTlk82nsRtMeBea5tggZx7-KVU5/view)
 
