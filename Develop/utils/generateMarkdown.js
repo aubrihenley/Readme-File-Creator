@@ -58,8 +58,7 @@ function renderLicenseSection(license) {
     let licenseSection = "";
     return licenseSection;
   }else {
-    let licenseSection= `![License](${renderLicenseBadge(license)})\n
-    [License](${renderLicenseLink(license)})`
+    let licenseSection= `[![License](${renderLicenseBadge(license)})](${renderLicenseLink(license)})`
     return licenseSection;
   }
  
@@ -84,10 +83,11 @@ function generateMarkdown(data) {
 ${data.installation}
 
 ## Usage
+${data.usage}
 
 ![Screenshot of App](${data.screenshot})
 
-[Demo Video](${data.video})
+${data.video}
 
 ## Credits
 ${data.collaborators}

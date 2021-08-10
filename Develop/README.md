@@ -1,11 +1,9 @@
-# Project title
+# Weather Station
 
   ## Description
-  Short description
+  Created a weather app where a user can search for their city and receive the current day’s weather as well as a 5 day forecast. This project used chained api calls to provide the current weather and the 5 day forecast. This project was created using HTML, CSS, Bootstrap, JavaScript and openweather API.
 
-  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-
-    [License](https://choosealicense.com/licenses/apache-2.0/)
+  [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
   ## Table of Contents
 - [Installation](#installation)
@@ -14,29 +12,31 @@
 - [License](#license)
 
 ## Installation
-Steps for istall
+No special steps required for use of application.
 
 ## Usage
 
-![Screenshot of App](url)
+![Screenshot of App](../assets/images/weatherscreenshot.png)
 
-[Demo Video](video url)
+None available
 
 ## Credits
-not applicable
+Sole contributor.  https://openweathermap.org/api
 
 ## License
-This project is covered by the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
+This project is covered by the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## How to Contribute
 *If you would like to contribute, you can follow these guidelines for how to do so.*
-contributor covenent
+
+Please follow the [Contributor Covenant](https://www.contributor-covenant.org/)for contributions.
 
 ## Tests
-no testing
+No tests at this time.
 
 ## Questions
 Please feel free to reach out and send any questions or comments to me at:
-GitHub: https://github.com/
+
+GitHub: https://github.com/aubrihenley
 
 email: aubri.henley@gmail.com
