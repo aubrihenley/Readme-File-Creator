@@ -17,8 +17,8 @@ Before initializign the index.js you will need to do and npm install for inquire
 ## Usage
 User will initialize index.js and fill out prompts as directed. See screenshot and video demonstration below.
 
-    ![Screenshot of inquirer prompts](assets/images/screenshot.png)
-    [Demo Video](https://drive.google.com/file/d/1u-JnuiTlk82nsRtMeBea5tggZx7-KVU5/view)
+![Screenshot of inquirer prompts](assets/images/screenshot.png)
+[Demo Video](https://drive.google.com/file/d/1u-JnuiTlk82nsRtMeBea5tggZx7-KVU5/view)
 
 ## Credits
 Sole creator: Aubri Henley
@@ -27,7 +27,7 @@ Sole creator: Aubri Henley
 This project is covered by the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 ## How to Contribute
-Please follow the [Contributor Covenant](https://www.contributor-covenant.org/)for contributions.
+Please follow the [Contributor Covenant](https://www.contributor-covenant.org/) for contributions.
 
 ## Tests
 No tests at this time.
